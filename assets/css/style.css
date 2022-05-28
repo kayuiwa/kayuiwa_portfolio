@@ -1,0 +1,948 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+    /*-------- nav menu -----------*/
+        nav{
+            height: 70px; width: 100%;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            position: relative;
+            text-align: center;
+        }
+        #navigation{
+            list-style: none;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .index{
+            height: 50px; width: 200px;
+            background-color: #838383;
+            border-radius: 30px 30px 0px 0px;
+            position: absolute;
+            top: 20px;
+            right: 500px;
+            padding-top: 8px;
+        }
+        .indexOn{
+            background-color: #40413E;
+        }
+        .test{
+            height: 100%; 
+            background-color: rgba(51, 51, 51, 0);
+            border-radius: 30px 30px 0px 0px;
+        }
+        .aboutme{
+            height: 50px;  width: 200px;
+            background-color: #838383;
+            border-radius: 30px 30px 0px 0px;
+            position: absolute;
+            top: 20px;
+            right: 300px;
+            padding-top: 8px;
+        }
+        .aboutmeOn{
+            background-color: #40413E;
+        }
+        .creative{
+            height: 50px; width: 200px;
+            background-color: #838383;
+            border-radius: 30px 30px 0px 0px;
+            position: absolute;
+            top: 20px;
+            right: 100px;
+            padding-top: 8px;
+        }
+        .creativeOn{
+            background-color: #40413E;
+        }
+        #navigation :hover{
+            background-color: #40413E;
+        }
+
+        #navigation a{
+            text-decoration: none;
+            color: #ffffff;
+            list-style: none;
+        }
+
+    /*----------- index ------------*/
+
+
+        .top{
+            height: 800px; width: 100%;
+            overflow: hidden;
+        }
+        .myslider{
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 800px;
+        }
+        .myslider div{
+            width : 100%;
+            height: 800px;
+        }
+        .index1{
+            height: 800px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../images/index1.png); 
+        }
+        .index2{
+            height: 800px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../images/index2.png);   
+        }
+        .index3{
+            height: 800px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../../images/index3.png);   
+        }
+        .index4{
+            height: 800px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:url(../../images/index4.png);   
+        }
+        .mainText{
+            font-family: 'Mukta', sans-serif;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            z-index: 5;
+        }
+        .mainText h1{
+            font-size: 300%;
+        }
+        .mainText h2{
+            font-size: 180%;
+        }
+        .mainText p{
+            font-size: 150%;
+        }
+
+        /*-------- footer -------*/
+        footer{
+            text-align: center;
+            transform: translateY(-150px);
+        }
+
+        footer h1{
+            color: #333;
+        }
+        #icon {
+            list-style-type: none;
+            padding: 0;
+        }
+        .item{
+            display: inline-block;
+        }
+
+        .insta{
+            height: 50px; width: 50px;
+            background-image: url(../../images/ig-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .fb{
+            height: 50px; width: 50px;
+            background-image: url(../../images/fb-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .linkedin{
+            height: 50px; width: 50px;
+            background-image: url(../../images/link-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+
+    /* -------- aboutme ----------*/
+        .aboutMeMain{
+            height: 1680px; width: 100%;
+            background-color: #40413E;
+            padding: 10%;
+            position: relative;
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 280%;
+        }
+        .text1{
+            height: auto; width: 40%;
+            color: #ffffff;
+            font-size: 100%;
+            position: absolute;
+            left: 20%;
+            top: 190px;
+        }
+        .text1 h1, .text2 h1{
+            line-height: 150%;
+            font-weight: 400;
+        }
+        .text1 p,.text2 p{
+            padding-top: 4%;
+        }
+        .pic01{
+            height: 502px; width: 318px;
+            background-image: url(../../images/pic01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            border-radius: 20px;
+            right: 20%;
+        }
+        
+        .text2{
+            height: auto; width: 40%;
+            color: #ffffff;
+            font-size: 100%;
+            position: absolute;
+            right: 6%;
+            top: 720px;
+        }
+        .pic02{
+            height: 506px; width: 394px;
+            background-image: url(../../images/pic02.JPG);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            border-radius: 20px;
+            left: 20%;
+            top: 682px;
+        }
+        .aboutmeFooter{
+            text-align: center;
+            transform: translateY(-150px);
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .aboutmeFooter h1{
+            color: #ffffff;
+        }
+
+
+        .aboutmeFooter .insta{
+            height: 50px; width: 50px;
+            background-image: url(../../images/ig-white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .aboutmeFooter .fb{
+            height: 50px; width: 50px;
+            background-image: url(../../images/fb-white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .aboutmeFooter .linkedin{
+            height: 50px; width: 50px;
+            background-image: url(../../images/link-white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+
+
+
+    /* -------- creative --------*/
+
+        .creativeMain{
+            height: 1880px; width: 100%;
+            background-color: #40413E;
+            text-align: center;
+            position: relative;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .creative1{
+            height: 20%; width: 50%;
+            background-image: url(../../images/creative01.png);
+            background-repeat: no-repeat;
+            background-size:cover;
+            border-radius: 20px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 60px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .creative2{
+            height: 20%; width: 50%;
+            background-image: url(../../images/creative02.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            position: absolute;
+            left:  0;  
+            right:  0; 
+            top: 568px;
+            margin:  auto;   
+            cursor: pointer;
+        }
+
+        .creative3{
+            height: 20%; width: 50%;
+            background-image: url(../../images/creative03.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            position: absolute;
+            left:  0;  
+            right:  0; 
+            top: 1076px;
+            margin:  auto;   
+            cursor: pointer;
+        }
+        .modal{
+            height: 100%; width: 100%;
+            background-color: #40413eb6;
+            border-radius: 50px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 4;
+            cursor: pointer;
+        }
+        .modal-content1{
+            height:60%; width: 50%;
+            background-color: #ffffff;
+            border-radius: 20px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 60px;
+            margin: auto;
+        }
+
+        .modal-content-item1{
+            height: 70%; width: 70%;
+            background-image: url(../../images/modal1.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 80px;
+            margin: auto;
+        }
+        .modal-content2{
+            height:46%; width: 50%;
+            background-color: #ffffff;
+            border-radius: 20px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 568px;
+            margin: auto;
+        }
+        .modal-content-item2{
+            height:90%; width: 70%;
+            background-image: url(../../images/modal2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 40px;
+            margin: auto;
+        }
+
+        .modal-content3{
+            height:40%; width: 50%;
+            background-color: #ffffff;
+            border-radius: 20px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 1076px;
+            margin: auto;
+        }
+        .modal-content-item3{
+            height: 100%; width: 90%;
+            background-image: url(../../images/creative03.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 120px;
+            margin: auto;
+        }
+
+
+        .modal-content h1{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 16px;
+            margin: auto;
+        }
+        .modal-content1 h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 16%;
+            margin: auto;
+        }
+
+        .modal-content2 h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 24%;
+            margin: auto;
+        }
+        .modal-content3 h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 30%;
+            margin: auto;
+        }
+        .modal-content1 p{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 10%;
+            margin: auto;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal-content2 p{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 12%;
+            margin: auto;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal-content3 p{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 14%;
+            margin: auto;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .js-modal-close{
+            height: 40px; width: 100px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 4%;
+            margin: auto;
+            background-color: #535352;
+            border-radius: 6px;
+            color: #ffffff;
+            padding: 8px 0px;
+            box-shadow: #40413E;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal-content a{
+            text-decoration: none;
+        }
+        .js-modal-close:hover{
+            background-color: #40413E;
+        }
+    .fade-in { opacity: 0;}
+
+        }
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    /*-------- nav menu -----------*/
+        nav{
+            height: 50px; width: 100%;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            position: relative;
+            text-align: center;
+        }
+        #navigation{
+            list-style: none;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .index{
+            height: 30px; width: 60px;
+            background-color: #838383;
+            border-radius: 8px 8px 0px 0px;
+            position: absolute;
+            top: 20px;
+            right: 138px;
+            padding-top: 4px;
+        }
+        .indexOn{
+            background-color: #40413E;
+        }
+        .test{
+            height: 100%; 
+            background-color: rgba(51, 51, 51, 0);
+            border-radius: 8px 8px 0px 0px;
+        }
+        .aboutme{
+            height: 30px;  width: 60px;
+            background-color: #838383;
+            border-radius: 8px 8px 0px 0px;
+            position: absolute;
+            top: 20px;
+            right: 74px;
+            padding-top: 4px;
+        }
+        .aboutmeOn{
+            background-color: #40413E;
+        }
+        .creative{
+            height: 30px; width: 60px;
+            background-color: #838383;
+            border-radius: 8px 8px 0px 0px;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            padding-top: 4px;
+        }
+        .creativeOn{
+            background-color: #40413E;
+        }
+        #navigation :hover{
+            background-color: #40413E;
+        }
+
+        #navigation a{
+            text-decoration: none;
+            color: #ffffff;
+            list-style: none;
+        }
+
+    /*----------- index ------------*/
+
+
+        .top{
+            height: 900px; width: 100%;
+            overflow: hidden;
+        }
+        .myslider{
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 900px;
+        }
+        .myslider div{
+            width : 100%;
+            height: 900px;
+        }
+        .index1{
+            height: 900px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(../../images/index\(sp\)01.png); 
+        }
+        .index2{
+            height: 900px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(../../images/index\(sp\)02.png);   
+        }
+        .index3{
+            height: 900px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(../../images/index\(sp\)03.png);   
+        }
+        .index4{
+            height: 900px; width: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image:url(../../images/index\(sp\)04.png);   
+        }
+        .mainText{
+            font-family: 'Mukta', sans-serif;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            z-index: 5;
+        }
+        .mainText h1{
+            font-size: 32px;
+        }
+        .mainText h2{
+            font-size: 20px;
+        }
+        .mainText p{
+            font-size: 18px;
+}
+
+    /*-------- footer -------*/
+        footer{
+            text-align: center;
+            transform: translateY(-170px);
+            bottom: 0;
+            z-index: 5;
+        }
+
+        footer h1{
+            color: #333;
+            font-size: 22px;
+        }
+        #icon {
+            list-style-type: none;
+            padding: 0;
+        }
+        .item{
+            display: inline-block;
+        }
+
+        .insta{
+            height: 30px; width: 30px;
+            background-image: url(../../images/ig-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .fb{
+            height: 30px; width: 30px;
+            background-image: url(../../images/fb-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .linkedin{
+            height: 30px; width: 30px;
+            background-image: url(../../images/link-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+
+    /* -------- aboutme ----------*/
+        .aboutMeMain{
+            height: 1280px; width: 100%;
+            background-color: #40413E;
+            padding: 10%;
+            position: relative;
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 150%;
+        }
+        .text1{
+            height: auto; width: 90%;
+            color: #ffffff;
+            font-size: 100%;
+            position: absolute;
+            left: 4%;
+            top: 30px;
+            z-index: 3;
+        }
+        .text1 h1, .text2 h1{
+            line-height: 130%;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        .text1 p,.text2 p{
+            padding-top: 4%;
+            font-size: 16px;
+        }
+        .pic01{
+            height: 200px; width: 300px;
+            background-image: url(../../images/pic01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top 26%;
+            position: absolute;
+            border-radius: 4px;
+            left: 0;
+            right: 0;
+            top: 320px;
+            margin: auto;
+            z-index: 1;
+        }
+        
+        .text2{
+            height: auto; width:90%;
+            color: #ffffff;
+            font-size: 100%;
+            position: absolute;
+            left: 4%;
+            top: 580px;
+        }
+        .pic02{
+            height: 200px; width: 300px;
+            background-image: url(../../images/index3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            position: absolute;
+            border-radius: 4px;
+            left: 0;
+            right: 0;
+            top: 940px;
+            margin: auto;
+            z-index: 2;
+        }
+        .aboutmeFooter{
+            text-align: center;
+            transform: translateY(-100px);
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .aboutmeFooter h1{
+            color: #ffffff;
+        }
+
+
+        .aboutmeFooter .insta{
+            height: 30px; width: 30px;
+            background-image: url(../../images/ig-white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .aboutmeFooter .fb{
+            height: 30px; width: 30px;
+            background-image: url(../../images/fb-white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+        .aboutmeFooter .linkedin{
+            height: 30px; width: 30px;
+            background-image: url(../../images/link-white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+        }
+
+
+
+    /* -------- creative --------*/
+
+        .creativeMain{
+            height: 1080px; width: 100%;
+            background-color: #40413E;
+            text-align: center;
+            position: relative;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .creative1{
+            height: 230px; width: 330px;
+            background-image: url(../../images/creative01.png);
+            background-repeat: no-repeat;
+            background-size:cover;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 60px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .creative2{
+            height: 230px; width: 330px;
+            background-image: url(../../images/creative02.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 4px;
+            position: absolute;
+            left:  0;  
+            right:  0; 
+            top: 330px;
+            margin:  auto;   
+            cursor: pointer;
+        }
+
+        .creative3{
+            height: 230px; width: 330px;
+            background-image: url(../../images/creative03.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 4px;
+            position: absolute;
+            left:  0;  
+            right:  0; 
+            top: 600px;
+            margin:  auto;   
+            cursor: pointer;
+        }
+        .modal{
+            height: 100%; width: 100%;
+            background-color: #40413eb6;
+            border-radius: 50px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 4;
+            cursor: pointer;
+        }
+        .modal-content1{
+            height: 760px; width: 330px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 60px;
+            margin: auto;
+        }
+
+        .modal-content-item1{
+            height: 100%; width: 80%;
+            background-image: url(../../images/modal1.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 60px;
+            margin: auto;
+        }
+        .modal-content2{
+            height: 600px; width: 330px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 330px;
+            margin: auto;
+        }
+        .modal-content-item2{
+            height:80%; width: 70%;
+            background-image: url(../../images/modal2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 40px;
+            margin: auto;
+        }
+
+        .modal-content3{
+            height:40%; width: 330px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 600px;
+            margin: auto;
+        }
+        .modal-content-item3{
+            height: 100%; width: 90%;
+            background-image: url(../../images/creative03.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50px;
+            margin: auto;
+        }
+        .modal h1{
+            font-size: 24px;
+        }
+        .modal h2{
+            font-size: 22px;
+        }
+        .modal p{
+            font-size: 16px;
+        }
+
+        .modal-content h1{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 12px;
+            margin: auto;
+        }
+        .modal-content1 h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 20%;
+            margin: auto;
+        }
+
+        .modal-content2 h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 38%;
+            margin: auto;
+        }
+        .modal-content3 h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 44%;
+            margin: auto;
+        }
+        .modal-content1 p{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 8%;
+            margin: auto;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal-content2 p{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 12%;
+            margin: auto;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal-content3 p{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 12%;
+            margin: auto;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .js-modal-close{
+            height: 30px; width: 60px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 2%;
+            margin: auto;
+            background-color: #535352;
+            border-radius: 6px;
+            font-size: 16px;
+            color: #ffffff;
+            padding: 2px 0px;
+            box-shadow: #40413E;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal-content a{
+            text-decoration: none;
+        }
+        .js-modal-close:hover{
+            background-color: #40413E;
+        }
+
+
+
+
+  .fade-in { opacity: 0;}
+
+    }
