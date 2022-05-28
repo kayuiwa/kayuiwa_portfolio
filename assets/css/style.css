@@ -549,25 +549,25 @@ body{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url(../../images/index\(sp\)01.png); 
+            background-image: url(../../images/indexSp01.png); 
         }
         .index2{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url(../../images/index\(sp\)02.png);   
+            background-image: url(../../images/indexSp02.png);   
         }
         .index3{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url(../../images/index\(sp\)03.png);   
+            background-image: url(../../images/indexSp03.png);   
         }
         .index4{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image:url(../../images/index\(sp\)04.png);   
+            background-image:url(../../images/indexSp04.png);   
         }
         .mainText{
             font-family: 'Mukta', sans-serif;
