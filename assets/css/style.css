@@ -549,25 +549,25 @@ body{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)01.png"); 
+            background-image: url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)01.png?raw=true"); 
         }
         .index2{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)02.png");   
+            background-image: url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)02.png?raw=true");   
         }
         .index3{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)03.png");   
+            background-image: url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)03.png?raw=true");   
         }
         .index4{
             height: 900px; width: 100%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image:url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)04.png");   
+            background-image:url("https://github.com/kayuiwa/kayuiwa_portfolio/blob/main/images/index(sp)04.png?raw=true");   
         }
         .mainText{
             font-family: 'Mukta', sans-serif;
